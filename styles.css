@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+header {
+    background-color: rgb(36, 33, 33);
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 70px;
+    height: 70px;
+
+}
+
+
+/* Pages */
+
+
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 40px;  
+   
+}
+
+
+.navbar a:hover {
+    color : black;
+    border: 2px solid rgb(234, 204, 204);
+    background-color: white;
+    border-radius: 9px;    
+}
+
+
+/* Main */
+main {
+    background-image:   url("./img/fondo.jpg");
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Home */
+#titulo {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#slogan {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.banner {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+ 
+  
+.parrafoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+
+}
+
+
+.parrafoHome {
+    color: white;
+    font-size: 30px;
+    width: 50%;
+}
+
+
+.redVelvet {
+    width: 250px;
+    height: 300px;
+    border : 3px solid rgb(213, 213, 213);
+    border-radius: 10px;
+}
+
+
+/* About Us */
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+
+.producto {
+    width: 250px;
+    height: 300px;
+    border : 2px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    object-fit: cover;
+}  
+
+
+.descripcion {
+    color: white;
+    font-size: 30px;
+    width: 50%;
+}
+
+
+/* Contact */
+.logoContact {
+    width: 610px;
+    height: 610px;
+}
+
+
+.textContact {
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+}
+
+
+.contactInfo {
+    display: flex;
+}
+
+.contactWay {
+    color: beige;
+    font-size: 20px;
+    margin: 40px;
+    gap: 20px;
+}
+
+.contactWay:hover {
+    font-size: 23px;
+    color: blue;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(36, 33, 33);
+    height: 10vh;
+    font-size: 12px;
+}
+    
+
+
+
