@@ -175,16 +175,25 @@ main {
 
 /* More Info */
 
+
 .table1 {
     display: flex;
     justify-content: center;
-    z-index: 100;
+    flex-direction: column;
+    text-align: center;
 }
 
 .encabezado {
     color: white;
     background-color: blueviolet;
 }
+
+.meetings, .th, .td {
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+
 
 /* Footer */
 footer {
