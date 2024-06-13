@@ -177,21 +177,48 @@ main {
 
 
 .table1 {
+    height: 100vh;
+    width: 100%;
+    padding: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
 }
 
-.encabezado {
-    color: white;
-    background-color: blueviolet;
+.cols {
+    width: 400px;
+    height: 400px;
 }
 
 .meetings, .th, .td {
+    color : white;
     border-collapse: collapse;
     border: 1px solid white;
 }
+
+.th{
+    font-weight: bold;
+    background-color: brown;
+}
+
+
+.td, .th {
+    padding: 30px;
+}
+
+
+.bodyRow:nth-child(odd) {
+    background-color: rgb(148, 76, 25);
+}
+
+
+.bodyRow:nth-child(even) {
+    background-color: rgb(203, 114, 50);
+}
+
+
 
 
 
