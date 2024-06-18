@@ -184,7 +184,7 @@ main {
 }
 
 .meetings {
-    width: 50%;
+    width: 100%;
     margin: 50px;
     border-collapse: collapse;
 }
@@ -361,6 +361,7 @@ footer {
         border-radius: 2px;
     }
 
+    /*Home Responsive*/
     .parrafoImg {
         flex-direction: column-reverse;
     }
@@ -376,6 +377,7 @@ footer {
         height: 250px; 
     }
 
+    /*About Us Responsive*/
     .productos {
         flex-direction: column;
     }
@@ -391,6 +393,7 @@ footer {
         height: 250px;
     }
 
+    /*Contact Responsive*/
     .logoContact {
         width: 400px;
         height: 400px;
@@ -403,6 +406,29 @@ footer {
     .contactInfo {
         flex-direction: column;
     }
+
+    /*More Info Responsive*/
+    .meetings {
+        margin: 20px;
+    }
+
+    /*Benefits and Tips Responsive*/
+    .benefits, .tips {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /*Raffle Responsive*/
+    
+
+
+
 }
 
 
