@@ -31,14 +31,79 @@
                 <p>You can colaborate to hold an exhibition event and participate in a raffle to win an easel</p>
             </h2>
 
-            <div>
+            <div class="raffle">
                 <div class="map">
 
                     <p class="descMap">Our location is located at:</p>
                     
                     <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846575.5770249562!2d-119.0712484581416!3d34.01985761727839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf0a45505a7d%3A0xabb7acc626709843!2sHollywood%20Sign!5e0!3m2!1ses!2sco!4v1718472723912!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div>
+                    <form action="./show_data.html" method="get">
+                        <fieldset class="data">
+
+                            <label class="label" for="name"> First Name: 
+                                <input type="text" name="name" id="name" required>
+                            </label>
+
+                            <label class="label" for="lastName"> Last Name:
+                                <input type="text" name="lastName" id="lastName" required>
+                            </label>
+
+                            <label class="label" for="select"> Choose Meet or Zoom:
+                                <select type="text" name="select" id="select" required>
+                                    <option value="meet">Meet</option>
+                                    <option value="zoom">Zoom</option>
+                                </select>
+                            </label>
+
+                            <label class="label" for="select"> Choose Date:
+                                <select type="text" name="select" id="select" required>
+                                    <option value="20/10"> 20/10 </option>
+                                    <option value="27/10"> 27/10 </option>
+                                    <option value="21/11"> 21/11 </option>
+                                </select>
+                            </label>
+
+                            <label class="label" for="radio"> Payment Options:
+                            </label>
+                            <div class="radio">
+                                <input type="radio" name="radio" id="radio" value="Cash" required>
+                                <label for="radio"> Cash </label>
+                            </div>
+                            <div class="radio">    
+                                <input type="radio" name="radio" id="radio" value="Credit Card" required>
+                                <label for="radio"> Credit Card </label>
+                            </div>
+                            <div class="radio">    
+                                <input type="radio" name="radio" id="radio" value="Debit Card" required>
+                                <label for="radio"> Debit Card </label>                   
+                            </div>
+
+                            <div class="element">
+                                <label class="label" for="textarea" > Message (Optional):</label>
+                                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <div class="radio">
+
+                                <input type="checkbox" name="checkbox" id="checkbox" required>
+                                <label class="label" for="checkbox"> I accept the terms and conditions...
+                                </label>
+                                
+                                <input class="button" type="button" value="Submit">
+                            </div>
+
+                            
+                        </fieldset>
+                    </form>
                 </div>    
             </div>
-        </main>    
+        </main>
+        
+        <footer>
+            <p>Juan Diego Bocanegra - MindHub - 2024</p>
+        </footer>    
     </body>
 </html>
