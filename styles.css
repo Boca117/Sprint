@@ -104,6 +104,7 @@ main {
     height: 300px;
     border : 3px solid rgb(213, 213, 213);
     border-radius: 10px;
+    object-fit: cover;
 }
 
 
@@ -341,6 +342,40 @@ footer {
     font-size: 12px;
 }
     
+@media (max-width: 690px) {
+    header{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        width: auto;
+        background-color: black;
+        border-radius: 2px;
+    }
+
+    .parrafoImg {
+        flex-direction: column-reverse;
+    }
+    
+    .parrafoHome {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .redVelvet {
+        width:300px;
+        height: 250px; 
+    }
+
+}
 
 
 
