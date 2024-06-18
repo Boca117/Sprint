@@ -245,7 +245,7 @@ main {
 
 .text {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     width: 50%;
     list-style-position: inside;
     list-style-type: square;
@@ -255,14 +255,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 80%;
     gap: 30px;
     margin: 20px;
     border: 2px solid rgb(154, 222, 236);
 }
 
 .data {
-    font-size: 20px;
+    font-size: 25px;
     margin: 15px;
 
 }
@@ -343,7 +343,7 @@ footer {
     font-size: 12px;
 }
     
-@media (max-width: 690px) {
+@media (max-width: 720px) {
     header{
         flex-direction: column-reverse;
         height: auto;
@@ -425,7 +425,9 @@ footer {
 
 
     /*Raffle Responsive*/
-    
+    .raffle {
+        flex-direction: column-reverse;
+    }
 
 
 
